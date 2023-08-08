@@ -2,7 +2,7 @@ from typing import Union
 import titanic 
 from fastapi import FastAPI
 
-
+app = FastAPI()
 
 
 @app.get("/titanic")
