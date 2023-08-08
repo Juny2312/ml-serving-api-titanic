@@ -1,13 +1,13 @@
 from typing import Union
-
+import titanic 
 from fastapi import FastAPI
 
-app = FastAPI()
 
 
-@app.get("/")
+
+@app.get("/titanic")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "Here is for titanic model"}
 
 
 @app.get("/items/{item_id}")
